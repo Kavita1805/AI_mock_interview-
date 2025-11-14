@@ -11,7 +11,7 @@ import { Form } from "@/components/ui/form"
 import { Input } from "@/components/ui/input" // Assuming Input is used by FormField
 import FormField from "./FormField";
 import { useRouter } from "next/navigation";
-import { auth } from "@/Firebase/client";
+import { auth } from "@/firebase/client";
 // import { sign } from "crypto"; // Unused import
 import {
   createUserWithEmailAndPassword,
